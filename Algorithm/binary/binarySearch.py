@@ -4,7 +4,6 @@ data_list = random.sample(range(50), 10)
 
 def binary_search(data, search):
   data.sort()
-  print(data)
 
   if len(data) == 1 and search == data[0]:
     return True

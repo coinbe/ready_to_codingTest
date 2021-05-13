@@ -1,3 +1,5 @@
+# 소수만들기
+
 def solution(nums):
   import itertools
 
@@ -13,7 +15,7 @@ def solution(nums):
           n_doc[i] = 1
         else:
           n_doc[i] += 1
-          
+
       n_set = set(n_doc.keys())
       n_max = max(n_set)
 
